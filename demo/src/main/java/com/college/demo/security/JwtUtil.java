@@ -22,7 +22,6 @@ public class JwtUtil {
     private long validity = 30000; // 5 minutes
 
 
-
     public String generateToken(String username) {
         Map<String, Object> claims = new HashMap<>();
         String token= createToken(claims, username);
