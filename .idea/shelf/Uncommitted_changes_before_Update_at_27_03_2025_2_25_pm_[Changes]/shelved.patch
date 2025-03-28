@@ -1,0 +1,16 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+new file mode 100644
+--- /dev/null	(date 1743065425046)
++++ b/README.md	(date 1743065425046)
+@@ -0,0 +1,6 @@
++Deployment Link:
++Server Url ---> https://springboot-training-2.onrender.com
++
++Endpoints :
++To Fetch all data - /api/getAll
++To add data       - /api/create
